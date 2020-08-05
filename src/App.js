@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Dummy from './components/Dummy/Dummy';
+import Parallax from './components/UI/Parallax/Parallax';
 
 import classes from './App.module.css'
 
 function App() {
   return (
     <div>
-        <Dummy />
+        <Parallax />
     </div>
   );
 }
