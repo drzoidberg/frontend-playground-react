@@ -8,7 +8,7 @@ frontend-playground is a React project that serves as a wrapper around motly unr
 
 ## 🧾 It uses
 - CSS modules
-- refs
+- useEffect & useRef Hooks
 
 ## 🛠 Installation & 🚀 Usage
 
@@ -23,7 +23,21 @@ npm i
 npm start
 ```
 
-## 🚧 Roadmap
-- [ ] Bootstrapping the project
-- [x] fase acabada
-- [ ] fase pendiente
+## 🙋 How to test the components
+Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
+
+```javascript
+import React from 'react';
+
+
+import Wrapper from './components/UI/Wrapper/Wrapper';
+import Parallax from './components/UI/Parallax/Parallax';
+
+function App() {
+  return (
+    <Wrapper wrappedComponent="Parallax">
+        <Parallax />
+    </Wrapper>
+  );
+}
+```
