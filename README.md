@@ -2,13 +2,29 @@
 
 frontend-playground is a React project that serves as a wrapper around mostly unrelated components. Usually centered in UI animation and effects
 
+
+
 ## 🔎 It explores
 - basic layouts
 - parallax effect
 
+
+
 ## 🧾 It uses
 - CSS modules
 - useEffect & useRef Hooks
+
+
+
+## 📦 Contents
+
+### JsTextAnimation
+Simple text using vanilla JS and React Hooks
+
+### Parallax
+Simple parallax effect using vanilla JS and React Hooks
+
+
 
 ## 🛠 Installation & 🚀 Usage
 
@@ -22,6 +38,8 @@ npm i
 // for running the project
 npm start
 ```
+
+
 
 ## 🙋‍♂️ How to test the components
 - Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
