@@ -24,6 +24,9 @@ Simple text using vanilla JS and React Hooks
 ### Parallax
 Simple parallax effect using vanilla JS and React Hooks
 
+### BasicInputAnimation
+A simple input animation built with React Hooks and CSS
+
 
 
 ## 🛠 Installation & 🚀 Usage

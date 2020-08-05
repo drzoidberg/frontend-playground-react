@@ -9,3 +9,15 @@
     width: 100vw;
     height: 100vh;
 }
+
+.BasicInputAnimation {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    height: 60vh;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,54 @@
+.ContentName {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all .3s ease;
+}
+
+Input {
+    border: none;
+    color: #595f6e;
+    height: 100%;
+    padding-top: 15px;
+    width: 100%;
+    outline: none;
+}
+
+label {
+    /* background-color: blue; */
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    pointer-events: none; /* basically you can click through the element. You can have anything on top and it will be ignored as long as this css rule is applied */
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+label::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    border-bottom: 3px solid #5fa8d3;
+    transform: translateX(-100%);
+    overflow: hidden;
+    transform: translate(100%);
+    transition: all .3s ease;
+}
+
+
+/* every time we focus the input, we affecting the label. Basically that's the function of this css rule */
+.Input:focus + .LabelName .ContentName,
+.Input:valid + .LabelName .ContentName { /* the position of the label in the html matters in this situation, due to the adjacent selector sibling (+) */
+    transform: translateY(-150%);
+    font-size: .8rem;
+    color: #5fa8d3;
+}
+
+.Input:focus + .LabelName::after,
+.Input:valid + .LabelName::after {
+    transform: translateX(0%);
+}
