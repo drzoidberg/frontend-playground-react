@@ -61,6 +61,8 @@ npm start
 
 
 ## 🙋‍♂️ How to test the components
+These components *unless otherwise stated* are thought to be used in a visual and aesthetically manner. That's why the structure *component-parent component* is what it is.
+
 - Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
 - Save App.js
 - You're good to go!
