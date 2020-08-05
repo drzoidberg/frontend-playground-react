@@ -20,10 +20,10 @@ frontend-playground-react is a React project that serves as a wrapper around mos
 
 ## 📦 Contents
 
-### - JsTextAnimation
+### JsTextAnimation
 A simple text using vanilla JS and React Hooks
 
-### - SVGAnimationWithText
+### SVGAnimationWithText
 A simple SVG animation (in the shape of text) built with class-based and functional
 
 ### Parallax
