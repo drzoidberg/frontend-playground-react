@@ -1,11 +1,10 @@
 # frontend-playground
 
-frontend-playground is a (...description goes here).
-
+frontend-playground is a React project that serves as a wrapper around motly unrelated components
 
 ## 🔎 It explores
-- text animations
 - basic layouts
+- parallax effect
 
 ## 🧾 It uses
 - CSS modules
