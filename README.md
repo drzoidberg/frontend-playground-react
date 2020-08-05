@@ -1,6 +1,6 @@
-# frontend-playground
+# frontend-playground-react
 
-frontend-playground is a React project that serves as a wrapper around mostly unrelated components. Usually centered in UI animation and effects
+frontend-playground-react is a React project that serves as a wrapper around mostly unrelated components. Usually centered in UI animation and effects
 
 
 
@@ -28,11 +28,11 @@ Simple parallax effect using vanilla JS and React Hooks
 
 ## 🛠 Installation & 🚀 Usage
 
-Use the node package manager [npm](https://npmjs.com/) to install frontend-playground.
+Use the node package manager [npm](https://npmjs.com/) to install frontend-playground-react.
 
 ```javascript
 // for the installation
-cd ./frontend-playground
+cd ./frontend-playground-react
 npm i
 
 // for running the project
