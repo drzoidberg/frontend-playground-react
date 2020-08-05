@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 
-import classes from './JsTextAnimation.module.css';
+import classes from './JsTextAnimation001.module.css';
 
-const JsTextAnimation = (props) => {
+const JsTextAnimation001 = (props) => {
     const header = useRef(null);
 
     useEffect(() => {
@@ -38,8 +38,8 @@ const JsTextAnimation = (props) => {
     })
 
     return (
-        <h1 className={`${classes.Fancy} ${classes.H1} ${classes.JsTextAnimation}`} ref={header}>Fancy Shmanzy</h1>
+        <h1 className={`${classes.Fancy} ${classes.H1} ${classes.JsTextAnimation001}`} ref={header}>Fancy Shmanzy</h1>
     )
 };
 
-export default JsTextAnimation;
+export default JsTextAnimation001;

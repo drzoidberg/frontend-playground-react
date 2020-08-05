@@ -10,15 +10,15 @@ import ReadingProgress from './components/UI/ReadingProgress/ReadingProgress';
 import SVGAnimationWithText from './components/UI/SVGAnimationWithText/SVGAnimationWithText';
 import FluidImageContainer from './containers/FluidImageContainer/FluidImageContainer';
 import Parallax from './components/UI/Parallax/Parallax';
-import JsTextAnimation from './components/UI/JsTextAnimation/JsTextAnimation';
+import JsTextAnimation001 from './components/UI/JsTextAnimation001/JsTextAnimation001';
 import BasicInputAnimation from './components/UI/BasicInputAnimation/BasicInputAnimation';
 
 import classes from './App.module.css'
 
 function App() {
   return (
-    <Wrapper wrappedComponent="CustomSelectInput">
-        <CustomSelectInput />
+    <Wrapper wrappedComponent="JsTextAnimation001">
+        <JsTextAnimation001 />
     </Wrapper>
   );
 }
