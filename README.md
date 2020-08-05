@@ -26,19 +26,19 @@ A simple text using vanilla JS and React Hooks
 ### - SVGAnimationWithText
 A simple SVG animation (in the shape of text) built with class-based and functional
 
-### - Parallax
+### Parallax
 A simple parallax effect using vanilla JS and React Hooks
 
-### - BasicInputAnimation
+### BasicInputAnimation
 A simple input animation built with React Hooks and CSS
 
-### - ReadingProgress
+### ReadingProgress
 A simple horizontal progress that indicates the position of the current viewport, with CSS styles applied
 
-### - BasicFullPageAnimation [🚧 WIP]
+### BasicFullPageAnimation // 🚧 WIP
 A simple example of a SPA using the barba.js library and gsap
 
-### - FluidImageContainer [🚧 WIP]
+### FluidImageContainer // 🚧 WIP
 A a tiny gallery using class-based components and some css effects applied.
 
 
