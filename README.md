@@ -23,7 +23,7 @@ npm i
 npm start
 ```
 
-## 🙋 How to test the components
+## 🙋‍♂️ How to test the components
 Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
 
 ```javascript
