@@ -23,7 +23,10 @@ frontend-playground-react is a React project that serves as a wrapper around mos
 With only tuning a few lines of these components, real cool and different effects can be achieved
 
 ### JsTextAnimation001
-A simple text using vanilla JS and React Hooks. Kinda versatile.
+A simple text animated using vanilla JS and React Hooks. Kinda versatile.
+
+### JsTextAnimation002glitchEffect
+A simple text animated trying to achieve a glitching effect, using vanilla JS and React Hooks.
 
 ### SVGAnimationWithText
 A simple SVG animation (in the shape of text) built with class-based and functional.
@@ -63,7 +66,7 @@ npm start
 
 
 ## 🙋‍♂️ How to test the components
-These components *unless otherwise stated* are thought to be used in a visual and aesthetically manner. That's why the structure *component-parent component* is what it is.
+These components *unless otherwise stated* are thought to be used in a visual and aesthetically manner. For now, they are all presentational components. That's why the structure *component-parent component* is what it is.
 
 - Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
 - Save App.js
