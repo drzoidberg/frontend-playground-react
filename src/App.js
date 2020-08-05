@@ -1,14 +1,16 @@
 import React from 'react';
 
+
+import Wrapper from './components/UI/Wrapper/Wrapper';
 import Parallax from './components/UI/Parallax/Parallax';
 
 import classes from './App.module.css'
 
 function App() {
   return (
-    <div>
+    <Wrapper wrappedComponent="Parallax">
         <Parallax />
-    </div>
+    </Wrapper>
   );
 }
 
