@@ -1,0 +1,7 @@
+.Background {
+    width: 100vw;
+    height: 100vh;
+
+
+    background: linear-gradient(180deg, #000120 5%, rgba(0, 0, 0, 0) 100%), #000000;
+}

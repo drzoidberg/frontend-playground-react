@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.ReadingProgress {
+    position: sticky;
+    height: 5px;
+    top: 0;
+    background-color: #ffc400;
+    color: #fff;
+    animation: pulse 8s ease infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: none
+    }
+    50% {
+        box-shadow:
+            0 0 0.033em #fff,
+            0 0 0.08em #fff,
+            0 0 0.1em #ffae00,
+            0 0 0.2em #ffae00,
+            0 0 0.3em #ffae00,
+            0 0 1em #ffae00,
+            0 0 1.5em #ffae00;
+    }
+    100% {
+        box-shadow: none
+    }
+}
+
