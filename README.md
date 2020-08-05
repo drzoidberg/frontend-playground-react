@@ -1,6 +1,6 @@
 # frontend-playground
 
-frontend-playground is a React project that serves as a wrapper around motly unrelated components
+frontend-playground is a React project that serves as a wrapper around mostly unrelated components. Usually centered in UI animation and effects
 
 ## 🔎 It explores
 - basic layouts
