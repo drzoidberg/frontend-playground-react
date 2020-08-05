@@ -27,6 +27,8 @@ Simple parallax effect using vanilla JS and React Hooks
 ### BasicInputAnimation
 A simple input animation built with React Hooks and CSS
 
+### FluidImageContainer [🚧 WIP]
+A a tiny gallery using class-based components and some css effects applied.
 
 
 ## 🛠 Installation & 🚀 Usage
