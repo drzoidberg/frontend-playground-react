@@ -24,7 +24,9 @@ npm start
 ```
 
 ## 🙋‍♂️ How to test the components
-Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
+- Enter in the App Component and change the prop wrappedComponent and the name of the component you want to test
+- Save App.js
+- You're good to go!
 
 ```javascript
 import React from 'react';
