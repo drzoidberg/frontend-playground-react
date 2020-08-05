@@ -4,6 +4,7 @@ import React from 'react';
 import Wrapper from './components/UI/Wrapper/Wrapper';
 import Template from './components/Template/Template';
 
+import CustomSelectInput from './components/UI/CustomSelectInput/CustomSelectInput';
 import BasicFullPageAnimation from './components/UI/BasicFullPageAnimation/BasicFullPageAnimation';
 import ReadingProgress from './components/UI/ReadingProgress/ReadingProgress';
 import SVGAnimationWithText from './components/UI/SVGAnimationWithText/SVGAnimationWithText';
@@ -16,8 +17,8 @@ import classes from './App.module.css'
 
 function App() {
   return (
-    <Wrapper wrappedComponent="BasicFullPageAnimation">
-        <BasicFullPageAnimation />
+    <Wrapper wrappedComponent="CustomSelectInput">
+        <CustomSelectInput />
     </Wrapper>
   );
 }

@@ -1,0 +1,64 @@
+.Select {
+    background-color: #4d5061;
+    border: 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 50%);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1em 4em 1em 1.5rem;
+    /* appearance: none */ /* to get rid of the basic default form element styling */
+}
+
+.Span {
+    background: red;
+    display: block;
+    height: 1rem;
+    position: absolute;
+    width: 1rem;
+    top: 0;
+    right: 0;
+}
+
+.CustomSelectInput {
+    position: relative;
+}
+
+.customArrow {
+    background: #3b3c47;
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4rem;
+
+    pointer-events: none; /* with this rule you will no longer register any pointer event. Now the 'box' works */
+}
+
+.customArrow::before,
+.customArrow::after {
+    --size: .65em;
+
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.customArrow::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid rgba(128, 128, 128, 0.774);
+
+    top: 40%;
+}
+
+.customArrow::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid rgba(128, 128, 128, 0.774);
+
+    top: 65%;
+}
