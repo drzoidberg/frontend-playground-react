@@ -40,3 +40,11 @@
     height: 100vh;
     place-items: center;
 }
+
+.TextMaskMovingAnimation {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

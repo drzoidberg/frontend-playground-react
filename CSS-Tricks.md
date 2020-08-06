@@ -28,4 +28,5 @@ p {
     background-clip: text; 👁
     text-fill-color: transparent; 👁
 }
+/* take a look at the TextMaskMovingAnimation component */
 ```

@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+.Container {
+    font-family: 'Modak', sans-serif;
+    font-size: 6rem;
+    width: 16ch;
+}
+
 .TextMaskMovingAnimation {
-    color: blue
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 4rem;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 4px rgba(0,0,0,.2);
+    /* text-shadow: -1px -1px rgba(255, 0, 0, 0.158) */
 }
