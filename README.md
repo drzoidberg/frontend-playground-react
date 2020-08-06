@@ -34,6 +34,9 @@ A simple SVG animation (in the shape of text) built with class-based and functio
 ### Parallax
 A simple parallax effect using vanilla JS and React Hooks
 
+### TextMaskMovingAnimation
+A simple background moving effect on a background-clipped text using vanilla JS and React Hooks
+
 ### CustomSelectInput
 A simple styled select input, with no animations
 
