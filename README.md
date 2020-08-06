@@ -40,6 +40,9 @@ A simple styled select input, with no animations
 ### BasicInputAnimation
 A simple input animation built with React Hooks and CSS
 
+### SimpleTextReflection
+A simple CSS reflect effect (non-standard) applied to a contenteditable element
+
 ### ReadingProgress
 A simple horizontal progress that indicates the position of the current viewport, with CSS styles applied
 

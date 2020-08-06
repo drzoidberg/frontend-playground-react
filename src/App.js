@@ -4,6 +4,7 @@ import React from 'react';
 import Wrapper from './components/UI/Wrapper/Wrapper';
 import Template from './components/Template/Template';
 
+import SimpleTextReflection from './components/UI/SimpleTextReflection/SimpleTextReflection';
 import JsTextAnimation002glitchEffect from './components/UI/JsTextAnimation002glitchEffect/JsTextAnimation002glitchEffect';
 import CustomSelectInput from './components/UI/CustomSelectInput/CustomSelectInput';
 import BasicFullPageAnimation from './components/UI/BasicFullPageAnimation/BasicFullPageAnimation';
@@ -18,8 +19,8 @@ import classes from './App.module.css'
 
 function App() {
   return (
-    <Wrapper wrappedComponent="JsTextAnimation002glitchEffect">
-        <JsTextAnimation002glitchEffect />
+    <Wrapper wrappedComponent="SimpleTextReflection">
+        <SimpleTextReflection />
     </Wrapper>
   );
 }
