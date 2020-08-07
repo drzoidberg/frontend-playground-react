@@ -20,7 +20,7 @@ body {
 }
 ```
 
-### Make a custom
+### Make a moving background on a background-clipped text
 ```css
 p {
     display: inline;
@@ -28,5 +28,5 @@ p {
     background-clip: text; 👁
     text-fill-color: transparent; 👁
 }
-/* take a look at the TextMaskMovingAnimation component */
+/* take a look at the TextMaskMovingAnimation component. It uses another approach to achieve similar results */
 ```

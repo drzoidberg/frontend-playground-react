@@ -4,6 +4,7 @@ import React from 'react';
 import Wrapper from './components/UI/Wrapper/Wrapper';
 import Template from './components/Template/Template';
 
+import ElasticTabAnimation from './components/UI/ElasticTabAnimation/ElasticTabAnimation';
 import TextMaskMovingAnimation from './components/UI/TextMaskMovingAnimation/TextMaskMovingAnimation';
 import SimpleTextReflection from './components/UI/SimpleTextReflection/SimpleTextReflection';
 import JsTextAnimation002glitchEffect from './components/UI/JsTextAnimation002glitchEffect/JsTextAnimation002glitchEffect';
@@ -20,8 +21,8 @@ import classes from './App.module.css'
 
 function App() {
   return (
-    <Wrapper wrappedComponent="TextMaskMovingAnimation">
-        <TextMaskMovingAnimation />
+    <Wrapper wrappedComponent="ElasticTabAnimation">
+        <ElasticTabAnimation />
     </Wrapper>
   );
 }

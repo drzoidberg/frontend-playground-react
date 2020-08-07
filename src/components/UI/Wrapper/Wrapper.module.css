@@ -48,3 +48,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.Turning3DTextBlockAnimation {
+    background-color: #042331;
+    height: 100vh;
+}
+
+.ElasticTabAnimation {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    text-align: center;
+}
