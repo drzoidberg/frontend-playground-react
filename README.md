@@ -32,7 +32,10 @@ A simple text animated trying to achieve a glitching effect, using vanilla JS an
 A simple SVG animation (in the shape of text) built with class-based and functional.
 
 ### Parallax
-A simple parallax effect using vanilla JS and React Hooks
+A simple parallax effect that reacts to mousePosition using vanilla JS and React Hooks
+
+### ParallaxV2
+A simple parallax effect that reacts to scrollPosition using vanilla JS and React Hooks. There's implemented a fade gradient to background in the background image
 
 ### TextMaskMovingAnimation
 A simple background moving effect on a background-clipped text using vanilla JS and React Hooks
