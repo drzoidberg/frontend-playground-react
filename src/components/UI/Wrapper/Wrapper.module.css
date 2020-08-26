@@ -1,3 +1,6 @@
+.Wrapper {
+}
+
 .Parallax {
     background-color: #111;
     width: 100vw;
@@ -57,4 +60,8 @@
 .ParallaxV2 {
     background: #0a2a43;
     min-height: 1500px;
+}
+
+.ComponentSwitcher {
+    font-size: 1.6rem;
 }
